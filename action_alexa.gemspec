@@ -25,4 +25,15 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  # Runtime Depend
+  spec.add_dependency 'railties', '~> 6.0', '>= 6.0.3.2'
+
+  # Development/Test Dependencies
+  spec.add_development_dependency 'rspec', '~> 3.9'
+  spec.add_development_dependency 'rubocop', '~> 0.87.0'
+  spec.add_development_dependency 'faker', '~> 2.13'
+  spec.add_development_dependency 'simplecov', '~> 0.18.5'
+  spec.add_development_dependency 'simplecov-console', '~> 0.7.2'
+  spec.add_development_dependency 'pry', '~> 0.13.1'
 end
