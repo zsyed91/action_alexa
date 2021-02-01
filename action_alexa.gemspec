@@ -5,6 +5,7 @@ Gem::Specification.new do |spec|
   spec.version       = ActionAlexa::VERSION
   spec.authors       = ["Zshawn Syed"]
   spec.email         = ["zsyed91@gmail.com"]
+  spec.license       = 'MIT'
 
   spec.summary       = %q{Gem to add Amazon Alexa API callbacks to Rails}
   spec.description   = %q{Gem that helps process Amazon Alexa Intents with Rails}
